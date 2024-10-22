@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Plan Docente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #282162;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        header img {
+            width: 10%;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        .login {
+            width: 40%;
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .login h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .login label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .login input[type="text"],
+        .login input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .login button {
+            background-color: #5e2b88;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .manuales {
+            width: 60%;
+            padding-left: 20px;
+        }
+
+        .manuales h3 {
+            background-color: #f7f7a6;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .manuales ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .manuales ul li {
+            background-color: #e0e0e0;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .manuales ul li a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="utpl.png" alt="Logo institucional de la UTPL">
+        <h1>SISTEMA DE GESTIÓN DE PLAN DOCENTE</h1>
+    </header>
+
+    <div class="container">
+        <div class="login">
+            <h2>Ingreso al Sistema</h2>
+            <p>Use usuario y clave institucional</p>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username">
+
+            <label for="password">Clave</label>
+            <input type="password" id="password" name="password">
+
+            <button type="submit">Ingresar</button>
+        </div>
+
+        <div class="manuales">
+            <h3>Manuales de Usuario</h3>
+            <ul>
+                <li><a href="#">Manual para elaboración del plan MODALIDAD PRESENCIAL</a></li>
+                <li><a href="#">Manual para elaboración del plan MODALIDAD A DISTANCIA</a></li>
+                <li><a href="#">Manual para revisor</a></li>
+                <li><a href="#">Manual equipo de calidad</a></li>
+                <li><a href="#">Manual firma electrónica de documentos</a></li>
+                <li>CAPACITACIÓN JUEVES 26 DE SEPTIEMBRE 2024: de 8:00 - 9:00am</li>
+                <li>SOPORTE TÉCNICO - SALA ZOOM, lunes 7, 8 y 9 de oct de 9 a 10 am</li>
+                <li><a href="#">Manual para ingreso de información inicial</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
